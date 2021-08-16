@@ -1,0 +1,17 @@
+.photo-container {
+    /* border-top: 5px solid rgb(110, 75, 75); */
+    max-height: auto;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.photo-desc1 > p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.photo-story {
+    width: 600px;
+    padding-left: 1em;
+}
