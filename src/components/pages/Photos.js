@@ -2,6 +2,7 @@ import '../../App.css';
 import {createTheme, ThemeProvider} from '@material-ui/core/styles';
 import CustomBtn from '../CustomBtn';
 import NavBar from '../NavBar';
+import React from 'react';
 
 
 const theme = createTheme({
