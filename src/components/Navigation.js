@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <div className='container'>
       <div className='nav__header'>
-        <p>Hauptquartier</p>
+        <p>M Alif Lukman</p>
       </div>
       <div className='nav__menu'>
             <Nav.Link className='nav__effect' href="#Games">Games</Nav.Link>

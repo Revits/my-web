@@ -12,31 +12,33 @@ import { useState } from 'react';
 
 function HeroSection() {
 
-const [font, setFont]  = useState('#1d499b');
-
-const setStyle = (font) => {
-    setFont(font);
-};
+    const [count, setCount]  = useState(0);
 
 
     return (
         <div className='container'>
             <Row>
                 <Col>
-                    <h1 className='name1'>
-                        Hi!
-                    </h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
                     <div>
                     <h1 className='name2'>
-                     I Am, <span className='name'>M Alif Lukman</span>
+                     Welcome,
                     </h1>
                     </div>
                 </Col>
             </Row>
+            <Col>
+                    <div className='my__bio'>
+                        <div className='my__bio__pp'>
+                            <img src='images/my__bio__pp.jpg' alt='mybiopp' />
+                        </div>
+                        <div className='my__bio__profile'>
+                            <p>My friends usually call me Alif or Lukman, i live with my beautiful pregnant wife, right now, im working at bank mandiri as 
+                                a release team
+                            </p>
+                        </div>
+
+                    </div>
+                </Col>
         </div>
     )
 }
